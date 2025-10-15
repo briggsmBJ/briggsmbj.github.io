@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retrieve BitLocker Recovery Key from Intune</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        ol {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to Retrieve a BitLocker Recovery Key from Microsoft Intune</h1>
+    <h2>Step-by-Step Instructions</h2>
+    <ol>
+        <li>Sign in to the <strong>Microsoft Endpoint Manager admin center</strong> at <a href="https://endpoint.microsoft.com" target="_blank">https://endpoint.microsoft.com</a>.</li>
+        <li>In the left-hand navigation pane, select <strong>Devices</strong>.</li>
+        <li>Choose <strong>All devices</strong> and locate the device for which you need the BitLocker recovery key.</li>
+        <li>Click on the device name to open its details.</li>
+        <li>In the device overview pane, select <strong>Recovery keys</strong>.</li>
+        <li>The BitLocker recovery key will be displayed. You can copy it or export it as needed.</li>
+    </ol>
+</body>
+</html>
