@@ -1,43 +1,37 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Retrieve BitLocker Recovery Key from Intune</title>
+    <title>BitLocker Recovery Guide</title>
     <style>
-        body {
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #0078D4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
             font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-            color: #333;
         }
-        h1 {
-            color: #2c3e50;
-        }
-        h2 {
-            color: #34495e;
-        }
-        ol {
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        li {
-            margin-bottom: 10px;
+        .home-button:hover {
+            background-color: #005A9E;
         }
     </style>
 </head>
 <body>
-    <h1>How to Retrieve a BitLocker Recovery Key from Microsoft Intune</h1>
-    <h2>Step-by-Step Instructions</h2>
+    <a href="index.html" class="home-button">Home</a>
+
+    <h1>BitLocker Recovery Guide</h1>
+    <p>This page explains how to retrieve a BitLocker recovery key using Microsoft Intune.</p>
     <ol>
-        <li>Sign in to the <strong>Microsoft Endpoint Manager admin center</strong> at <a href="https://endpoint.microsoft.com" target="_blank">https://endpoint.microsoft.com</a>.</li>
-        <li>In the left-hand navigation pane, select <strong>Devices</strong>.</li>
-        <li>Choose <strong>All devices</strong> and locate the device for which you need the BitLocker recovery key.</li>
-        <li>Click on the device name to open its details.</li>
-        <li>In the device overview pane, select <strong>Recovery keys</strong>.</li>
-        <li>The BitLocker recovery key will be displayed. You can copy it or export it as needed.</li>
+        <li>Sign in to the Microsoft Endpoint Manager admin center.</li>
+        <li>Go to <strong>Devices</strong> &gt; <strong>All devices</strong>.</li>
+        <li>Select the device you want to recover the key for.</li>
+        <li>Under <strong>Monitor</strong>, click <strong>Recovery keys</strong>.</li>
+        <li>View and copy the BitLocker recovery key.</li>
     </ol>
+
+    <a href="index.html" class="home-button">Home</a>
 </body>
 </html>
